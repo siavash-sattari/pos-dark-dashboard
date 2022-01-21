@@ -1,8 +1,9 @@
 import React from 'react';
 
-export default function storeIcon() {
+export default function storeIcon({ className }) {
   return (
     <svg
+      className={className}
       width='40'
       height='40'
       viewBox='0 0 40 40'

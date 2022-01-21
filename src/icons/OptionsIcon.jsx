@@ -1,8 +1,9 @@
 import React from 'react';
 
-export default function OptionsIcon() {
+export default function OptionsIcon({ className }) {
   return (
     <svg
+      className={className}
       width='20'
       height='20'
       viewBox='0 0 20 20'

@@ -1,7 +1,6 @@
 import React from 'react';
 import { menus } from '../constants/menus';
 import StoreIcon from '../icons/StoreIcon';
-import "./Sidebar.css"
 
 function Sidebar() {
   return (
@@ -13,7 +12,7 @@ function Sidebar() {
         {menus.map(menu => (
           <button
             key={menu.name}
-            className='p-4 mx-auto rounded-xls text-primary btn'>
+            className='p-4 mx-auto rounded-xls text-primary'>
             {menu.icon}
           </button>
         ))}

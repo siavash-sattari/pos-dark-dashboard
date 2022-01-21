@@ -1,8 +1,9 @@
 import React from 'react';
 
-export default function ArrowDownIcon() {
+export default function ArrowDownIcon({ className }) {
   return (
     <svg
+      className={className}
       width='14'
       height='14'
       viewBox='0 0 14 14'

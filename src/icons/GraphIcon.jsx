@@ -1,8 +1,9 @@
 import React from 'react';
 
-export default function GraphIcon() {
+export default function GraphIcon({ className }) {
   return (
     <svg
+      className={className}
       width='24'
       height='24'
       viewBox='0 0 24 24'
