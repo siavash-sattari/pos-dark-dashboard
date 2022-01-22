@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './components/Sidebar';
 import StatsCard from './components/StatsCard';
+import OrderReport from './components/OrderReport';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         </header>
         <hr className='border-gray-700' />
         <StatsCard />
+        <OrderReport />
       </main>
     </div>
   );
