@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import StatsCard from './components/StatsCard';
 import OrderReport from './components/OrderReport';
 import MostOrdered from './components/MostOrdered';
+import MostTypeOfOrder from './components/MostTypeOfOrder';
 
 export default function App() {
   return (
@@ -21,7 +22,7 @@ export default function App() {
       </main>
       <aside class='flex flex-col gap-y-6 pt-6 pr-6 w-96'>
         <MostOrdered />
-        {/* <MostTypeOfOrder /> */}
+        <MostTypeOfOrder />
       </aside>
     </div>
   );
