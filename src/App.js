@@ -20,7 +20,7 @@ export default function App() {
         <StatsCard />
         <OrderReport />
       </main>
-      <aside class='flex flex-col gap-y-6 pt-6 pr-6 w-96'>
+      <aside className='flex flex-col gap-y-6 pt-6 pr-4 w-96'>
         <MostOrdered />
         <MostTypeOfOrder />
       </aside>

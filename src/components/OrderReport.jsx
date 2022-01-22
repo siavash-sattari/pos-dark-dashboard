@@ -15,7 +15,7 @@ export default function OrderReport() {
         <h2 className='text-xl font-semibold leading-loose text-white'>
           Order Report
         </h2>
-        <button className='flex py-3 px-4 rounded-lg border border-gray-700 gap-x-2.5'>
+        <button className='flex py-3 px-4 rounded-lg border border-gray-700 gap-x-2.5 hover:bg-gray-600'>
           <OptionsIcon />
           <span className='text-sm text-white'>Filter order</span>
         </button>
