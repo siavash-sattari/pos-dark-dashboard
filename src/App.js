@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from './components/Sidebar';
 import StatsCard from './components/StatsCard';
 import OrderReport from './components/OrderReport';
+import MostOrdered from './components/MostOrdered';
 
 export default function App() {
   return (
@@ -18,6 +19,10 @@ export default function App() {
         <StatsCard />
         <OrderReport />
       </main>
+      <aside class='flex flex-col gap-y-6 pt-6 pr-6 w-96'>
+        <MostOrdered />
+        {/* <MostTypeOfOrder /> */}
+      </aside>
     </div>
   );
 }
