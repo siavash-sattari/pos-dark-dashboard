@@ -25,7 +25,7 @@ export default function OrderReport() {
           <tr className='text-sm font-semibold text-white'>
             <td className='py-4 border-b border-gray-700'>Customer</td>
             <td className='py-4 border-b border-gray-700'>Menu</td>
-            <td className='py-4 border-b border-gray-700 text-right'>
+            <td className='py-4 border-b border-gray-700 text-center'>
               Total Payment
             </td>
             <td className='py-4 border-b border-gray-700 text-center'>
@@ -47,7 +47,7 @@ export default function OrderReport() {
                 </div>
               </td>
               <td className='py-4'>{order.menu}</td>
-              <td className='py-4 tabular-nums text-right'>{order.total}</td>
+              <td className='py-4 tabular-nums text-center'>{order.total}</td>
               <td className='py-4 flex justify-center'>
                 <span
                   className={
